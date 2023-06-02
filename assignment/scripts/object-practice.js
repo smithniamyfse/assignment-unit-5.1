@@ -26,7 +26,7 @@ console.log('A little about me:', me);
 */
 // TODO - create and log fullName variable
 let fullName = me.firstName + ' ' + me.lastName;
-console.log('My name is:', fullName); 
+console.log('My name:', fullName); 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
@@ -53,3 +53,7 @@ console.log('I got new shoes and now have ' + me.shoeCount + ' pairs in my close
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+// TODO - add favoriteColor property, set value and log updated object me
+me.favoriteColor = 'green';
+console.log('My favorite color:', me.favoriteColor);
+console.log('A little more about me:', me);
