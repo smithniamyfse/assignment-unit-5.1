@@ -24,15 +24,17 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+// TODO - create and log fullName variable
 let fullName = me.firstName + ' ' + me.lastName;
-console.log('This is my full name:', fullName);
+console.log('My name is:', fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
-
+// TODO - access favThreeFood property array and log index 0 & 2
+console.log('The first favorite food listed:', me.favThreeFoods[0]);
+console.log('The last favorite food listed:', me.favThreeFoods[2]);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
