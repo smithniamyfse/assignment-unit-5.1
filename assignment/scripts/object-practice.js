@@ -26,7 +26,7 @@ console.log('A little about me:', me);
 */
 // TODO - create and log fullName variable
 let fullName = me.firstName + ' ' + me.lastName;
-console.log('My name is:', fullName);
+console.log('My name is:', fullName); 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
@@ -42,7 +42,10 @@ console.log('The last favorite food listed:', me.favThreeFoods[2]);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+// TODO - log initial shoeCount value; increment value and log updated shoeCount 
+console.log('I have ' + me.shoeCount + ' pairs of shoes in my closet.');
+me.shoeCount = me.shoeCount + 1;
+console.log('I got new shoes and now have ' + me.shoeCount + ' pairs in my closet.');
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
